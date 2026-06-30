@@ -1,4 +1,4 @@
-function [x,beta,betaA] = FertilityCoef_P
+function [x,beta,betaA] = FertilityModel
 
 load(char(pATh + "F.mat"),'x','F');
 Z               = 0; %This is to incorporate additional covariates, but not for now. 
